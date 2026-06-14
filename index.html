@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A-COLD-WALL* — Redesign Concept</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script>document.documentElement.classList.remove('no-js');
+if('scrollRestoration' in history){history.scrollRestoration='manual';}</script>
+</head>
+<body>
+
+<!-- ===== FULLSCREEN MENU OVERLAY ===== -->
+<div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+  <div class="mo-bar">
+    <span class="mo-logo">A-COLD-WALL*</span>
+    <button class="mo-close" id="menuClose" aria-label="Закрыть меню"><span></span><span></span></button>
+  </div>
+  <nav class="mo-nav">
+    <a href="#" class="display mo-link"><span class="mo-idx mono">01</span>МАГАЗИН</a>
+    <a href="#" class="display mo-link"><span class="mo-idx mono">02</span>НОВИНКИ</a>
+    <a href="#" class="display mo-link"><span class="mo-idx mono">03</span>О БРЕНДЕ</a>
+    <a href="#" class="display mo-link"><span class="mo-idx mono">04</span>КОЛЛАБОРАЦИИ</a>
+    <a href="#" class="display mo-link"><span class="mo-idx mono">05</span>МАГАЗИНЫ</a>
+    <a href="#" class="display mo-link"><span class="mo-idx mono">06</span>НОВОСТИ</a>
+  </nav>
+  <div class="mo-foot mono">
+    <div class="mo-foot-col">
+      <span class="mo-foot-k">КЛИЕНТАМ</span>
+      <a href="#">ПОИСК</a><a href="#">КОРЗИНА (0)</a><a href="#">ПОДДЕРЖКА</a>
+    </div>
+    <div class="mo-foot-col">
+      <span class="mo-foot-k">СОЦСЕТИ</span>
+      <a href="#">INSTAGRAM</a><a href="#">TWITTER</a><a href="#">FACEBOOK</a>
+    </div>
+    <div class="mo-foot-col mo-foot-right">
+      <span class="mo-foot-k">SS 2026</span>
+      <span>PINK NOISE</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="nav">
+  <div class="nav-cell logo"><span>A-COLD-WALL*</span></div>
+  <button class="nav-cell menu" id="menuOpen" aria-label="Открыть меню" aria-expanded="false">
+    <span class="ham"><i></i><i></i></span>
+  </button>
+  <div class="nav-cell search">ПОИСК</div>
+  <div class="nav-cell cart">КОРЗИНА <sup>(0)</sup></div>
+</header>
+
+<main id="scroll">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <h1 class="display hero-title reveal">SS 2026 PINK NOISE</h1>
+    <figure class="hero-media reveal">
+      <img src="assets/hero_hall.jpg" alt="Pink Noise gallery hall" />
+    </figure>
+    <h2 class="display hero-sub reveal">ПЕРВАЯ КОЛЛЕКЦИЯ ВДОХНОВЛЕНА<br>БРИТАНСКОЙ ЗВУКОВОЙ КУЛЬТУРОЙ</h2>
+    <p class="mono hero-caption reveal">Опираясь на исследование пространственных и<br>
+      субкультурных измерений явления, коллекция<br>
+      рассуждает об идеях эфемерности и функциональности,<br>
+      анонимности и дерзости.</p>
+
+    <!-- campaign film -->
+    <div class="campaign">
+      <div class="camp-thumbs reveal">
+        <figure><img src="assets/cu_line.jpg" alt=""></figure>
+        <figure><img src="assets/film1.jpg" alt=""></figure>
+        <figure><img src="assets/film3.jpg" alt=""></figure>
+      </div>
+
+      <figure class="camp-video reveal">
+        <img src="assets/camp_video.jpg" alt="">
+        <span class="vl c mono">СМОТРЕТЬ ВИДЕО</span>
+        <span class="vl bl mono">ЗВУК ВКЛ</span>
+        <span class="vl br mono">НА ВЕСЬ ЭКРАН</span>
+      </figure>
+
+      <div class="camp-rule"><span class="cross cc"></span></div>
+
+      <div class="camp-collage">
+        <div class="cc-col">
+          <div class="cc-duo reveal">
+            <figure><img src="assets/film5.jpg" alt=""></figure>
+            <figure><img src="assets/cu_black.jpg" alt=""></figure>
+          </div>
+          <p class="mono cc-cap reveal">Показ-фильм снят режиссёром Rory Wood, лукбук — фотографом Luca Grottoli. В проекте участвуют представители сети ACW*, одетые в коллекцию: музыканты Goldie, Jason Williamson и Jawnino, режиссёр Seb Tabe, Don Letts, а также модели Aweng Chuol, Laura Rylands, Danni Marris и Manyuon Deng.</p>
+          <figure class="cc-tall reveal"><img src="assets/yellow.jpg" alt=""></figure>
+          <div class="cc-duo reveal">
+            <figure><img src="assets/cu_cargo.jpg" alt=""></figure>
+            <figure><img src="assets/film4.jpg" alt=""></figure>
+          </div>
+        </div>
+
+        <div class="cc-col">
+          <figure class="cc-tall reveal"><img src="assets/cu_white.jpg" alt=""></figure>
+          <p class="mono cc-cap reveal">Всё снято в Deptford Storehouse — огромном бывшем газетном складе на юге Лондона. Кастинг — Najla Li Saad, стайлинг — Anna Pesonen, постановка движения — Joe Grey Adams.</p>
+          <div class="cc-duo reveal">
+            <figure><img src="assets/cu_group.jpg" alt=""></figure>
+            <figure><img src="assets/cu_greyhd.jpg" alt=""></figure>
+          </div>
+          <figure class="cc-tall reveal"><img src="assets/cu_yelhd.jpg" alt=""></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEW ARRIVALS ===== -->
+  <section class="block">
+    <div class="block-head">
+      <h3 class="mono label">НОВИНКИ</h3>
+      <a class="mono view-all" href="#">СМОТРЕТЬ ВСЁ →</a>
+    </div>
+    <div class="prod-row" data-row>
+      <article class="card"><div class="ph"><img src="assets/prod_cubist_hoodie.jpg" alt="Cubist Hoodie"></div><div class="card-meta mono"><span>ХУДИ CUBIST</span><span>$502</span></div></article>
+      <article class="card"><div class="ph"><img src="assets/prod_filament_m65.jpg" alt="Filament M65"></div><div class="card-meta mono"><span>КУРТКА FILAMENT M65</span><span>$980</span></div></article>
+      <article class="card"><div class="ph"><img src="assets/prod_gale_jacket.jpg" alt="Gale Jacket"></div><div class="card-meta mono"><span>КУРТКА ACW_CNVS GALE</span><span>$992</span></div></article>
+      <article class="card"><div class="ph"><img src="assets/prod_veneer_jacket.jpg" alt="Veneer Jacket"></div><div class="card-meta mono"><span>КУРТКА VENEER</span><span>$950</span></div></article>
+      <article class="card"><div class="ph"><img src="assets/prod_strand_hoodie.jpg" alt="Strand Hoodie"></div><div class="card-meta mono"><span>ХУДИ STRAND</span><span>$371</span></div></article>
+      <article class="card"><div class="ph"><img src="assets/prod_cubist_sweatpant.jpg" alt="Cubist Sweatpant"></div><div class="card-meta mono"><span>ШТАНЫ CUBIST</span><span>$440</span></div></article>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT BREND ===== -->
+  <section class="block about">
+    <figure class="about-media reveal"><div class="ph"><img src="assets/about_img.jpg" alt="Material study"></div>
+      <figcaption class="display about-cap">A-COLD-WALL* ИССЛЕДОВАНИЕ МАТЕРИАЛОВ ДЛЯ<br>СОЦИАЛЬНОЙ АРХИТЕКТУРЫ</figcaption>
+    </figure>
+    <div class="about-text">
+      <h3 class="mono label">О БРЕНДЕ</h3>
+      <p class="mono">A-COLD-WALL* предлагает особый взгляд на современную Британию через одежду, вдохновлённую взаимодействием архитектуры, промышленного дизайна, локальных субкультур и инноваций в материалах.</p>
+      <p class="mono">Основанный Сэмюэлом Россом в 2015 году, бренд ACW* сегодня развивается первоначальной командой компании и работает из Лондона со второй дизайн-студией в Милане.</p>
+    </div>
+  </section>
+
+  <!-- ===== POPULAR COLABORATIONS ===== -->
+  <section class="block">
+    <h3 class="mono label">ПОПУЛЯРНЫЕ КОЛЛАБОРАЦИИ</h3>
+    <div class="colab">
+      <figure class="colab-media reveal"><div class="ph"><img src="assets/colab_img.jpg" alt="Collaborations"></div></figure>
+      <div class="colab-specs">
+        <div class="spec"><span class="mono k">КОЛЛЕКЦИЯ</span><span class="mono v">SS25.001</span><span class="mono d">A-COLD-WALL* x NIKE ZOOM VOMERO</span></div>
+        <div class="spec"><span class="mono k">КОЛЛЕКЦИЯ</span><span class="mono v">SS25.002</span><span class="mono d">TOMOROW LONDON ACQUIRELL x ACW*</span></div>
+        <div class="spec"><span class="mono k">КОЛЛЕКЦИЯ</span><span class="mono v">SS25.003</span><span class="mono d">A-COLD-WALL* x DR.MARTENS 1461</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS ===== -->
+  <section class="block">
+    <h3 class="mono label">НОВОСТИ</h3>
+    <table class="news mono">
+      <thead><tr><th>ТИП</th><th>НАЗВАНИЕ</th><th>ДАТА</th></tr></thead>
+      <tbody>
+        <tr><td>КОЛЛЕКЦИЯ</td><td>A-COLD-WALL* ПОКАЗ SS26</td><td>12.06.26</td></tr>
+        <tr><td>КОЛЛАБОРАЦИЯ</td><td>TOMOROW LONDON ACQUIRELL x ACW*</td><td>04.05.26</td></tr>
+        <tr><td>МАГАЗИН</td><td>A-COLD-WALL* HARRODS ЛОНДОН</td><td>28.03.26</td></tr>
+        <tr><td>КОЛЛЕКЦИЯ</td><td>LIL SILVA ДЛЯ A-COLD-WALL*</td><td>11.02.26</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===== STORES ===== -->
+  <section class="block">
+    <h3 class="mono label">МАГАЗИНЫ</h3>
+    <figure class="store-media reveal"><div class="ph"><img src="assets/stores_img.jpg" alt="Store interior"></div>
+      <figcaption class="display store-cap">A-COLD-WALL* HARRODS ЛОНДОН</figcaption>
+    </figure>
+  </section>
+
+  <!-- ===== BEST SELLING ===== -->
+  <section class="block">
+    <h3 class="mono label">ХИТЫ ПРОДАЖ</h3>
+    <div class="best">
+      <article class="card big"><div class="ph"><img src="assets/prod_backpack_look.jpg" alt="Vest"></div><div class="card-meta mono"><span>ЖИЛЕТ</span><span>$620</span></div></article>
+      <article class="card"><div class="ph"><img src="assets/prod_cargo_storm.jpg" alt="Cargo Storm Jacket"></div><div class="card-meta mono"><span>КУРТКА CARGO STORM</span><span>$921</span></div></article>
+      <article class="card"><div class="ph"><img src="assets/prod_millbank_crew.jpg" alt="Millbank Crewneck"></div><div class="card-meta mono"><span>СВИТШОТ MILLBANK</span><span>$200</span></div></article>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="foot-grid">
+      <div class="foot-logo"><span class="acw-mark">A C W*</span></div>
+      <ul class="mono foot-col">
+        <li><a href="#">INSTAGRAM</a></li><li><a href="#">TWITTER</a></li><li><a href="#">FACEBOOK</a></li>
+      </ul>
+      <ul class="mono foot-col">
+        <li><a href="#">УСЛОВИЯ ИСПОЛЬЗОВАНИЯ</a></li><li><a href="#">КОНФИДЕНЦИАЛЬНОСТЬ</a></li><li><a href="#">ПОЛИТИКА COOKIE</a></li>
+        <li><a href="#">ВОЗВРАТ</a></li><li><a href="#">ВОПРОСЫ</a></li><li><a href="#">КАРЬЕРА</a></li>
+      </ul>
+      <ul class="mono foot-col">
+        <li><a href="#">РАССЫЛКА</a></li><li><a href="#">ПОДДЕРЖКА</a></li>
+      </ul>
+      <div class="mono foot-founder">ОСНОВАТЕЛЬ<br>СЭМЮЭЛ РОСС</div>
+    </div>
+    <p class="mono foot-legal">ВСЕ МАТЕРИАЛЫ ЭТОГО САЙТА ЯВЛЯЮТСЯ СОБСТВЕННОСТЬЮ A-COLD-WALL*. НИКАКАЯ ЧАСТЬ САЙТА, ВКЛЮЧАЯ ВЕСЬ ТЕКСТ И ИЗОБРАЖЕНИЯ, НЕ МОЖЕТ БЫТЬ ВОСПРОИЗВЕДЕНА В ЛЮБОЙ ФОРМЕ БЕЗ ПРЕДВАРИТЕЛЬНОГО ПИСЬМЕННОГО СОГЛАСИЯ A-COLD-WALL*. COPYRIGHT © 2026. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+    <p class="mono foot-credit">Сделано <a href="https://t.me/Frilste" target="_blank" rel="noopener" class="credit-link">@Frilste</a></p>
+  </footer>
+
+</main>
+
+<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
